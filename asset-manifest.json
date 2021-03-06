@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/RuslanaKravchenko/stopwatch_rxjs/static/css/main.e5446219.chunk.css",
+    "main.js": "/RuslanaKravchenko/stopwatch_rxjs/static/js/main.2d49affc.chunk.js",
+    "main.js.map": "/RuslanaKravchenko/stopwatch_rxjs/static/js/main.2d49affc.chunk.js.map",
+    "runtime-main.js": "/RuslanaKravchenko/stopwatch_rxjs/static/js/runtime-main.877d6749.js",
+    "runtime-main.js.map": "/RuslanaKravchenko/stopwatch_rxjs/static/js/runtime-main.877d6749.js.map",
+    "static/css/2.de71bbd8.chunk.css": "/RuslanaKravchenko/stopwatch_rxjs/static/css/2.de71bbd8.chunk.css",
+    "static/js/2.2675e282.chunk.js": "/RuslanaKravchenko/stopwatch_rxjs/static/js/2.2675e282.chunk.js",
+    "static/js/2.2675e282.chunk.js.map": "/RuslanaKravchenko/stopwatch_rxjs/static/js/2.2675e282.chunk.js.map",
+    "index.html": "/RuslanaKravchenko/stopwatch_rxjs/index.html",
+    "static/css/2.de71bbd8.chunk.css.map": "/RuslanaKravchenko/stopwatch_rxjs/static/css/2.de71bbd8.chunk.css.map",
+    "static/css/main.e5446219.chunk.css.map": "/RuslanaKravchenko/stopwatch_rxjs/static/css/main.e5446219.chunk.css.map",
+    "static/js/2.2675e282.chunk.js.LICENSE.txt": "/RuslanaKravchenko/stopwatch_rxjs/static/js/2.2675e282.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.877d6749.js",
+    "static/css/2.de71bbd8.chunk.css",
+    "static/js/2.2675e282.chunk.js",
+    "static/css/main.e5446219.chunk.css",
+    "static/js/main.2d49affc.chunk.js"
+  ]
+}
