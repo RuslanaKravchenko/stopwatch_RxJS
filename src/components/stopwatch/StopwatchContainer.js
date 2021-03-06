@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { fromEvent, interval } from "rxjs";
-import { bufferCount, filter, map, tap } from "rxjs/operators";
+import { bufferCount, filter, map } from "rxjs/operators";
 import { toHHMMSS } from "../../utils/timeFormat";
 import Stopwatch from "./Stopwatch";
 
@@ -8,11 +8,7 @@ const StopwatchContainer = () => {
   const [time, setTime] = useState(0);
   const [running, setRunning] = useState(false);
 
-  const timer$ = interval(1000).pipe(
-    tap((v) => {
-      console.log(v);
-    })
-  );
+  const timer$ = interval(1000);
 
   useEffect(() => {
     const waitBtn = document.getElementById("waitBtn");
@@ -23,7 +19,7 @@ const StopwatchContainer = () => {
         map(() => Date.now()),
         bufferCount(numberOfClicks, 1),
         filter((clickTime) => {
-          console.log(`Между кликами прошло: ${clickTime[1] - clickTime[0]}ms`);
+          // console.log(`Между кликами прошло: ${clickTime[1] - clickTime[0]}ms`);
           return clickTime[1] - clickTime[0] <= 300;
         })
       )
@@ -57,7 +53,7 @@ const StopwatchContainer = () => {
 
   const handleWait = () => {
     setRunning(false);
-    console.log("Ставим на паузу!");
+    // console.log("Ставим на паузу!");
   };
 
   return (
