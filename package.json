@@ -2,7 +2,7 @@
   "name": "stopwatch_rxjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/RuslanaKravchenko/stopwatch_rxjs",
+  "homepage": "https://RuslanaKravchenko.github.io/stopwatch_rxjs",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
