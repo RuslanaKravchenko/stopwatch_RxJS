@@ -1,13 +1,6 @@
 import React from "react";
 
-const Stopwatch = ({
-  time,
-  running,
-  handleStart,
-  handleStop,
-  handleWait,
-  handleReset,
-}) => {
+const Stopwatch = ({ time, running, handleStart, handleStop, handleReset }) => {
   return (
     <section>
       <h1>Stopwatch</h1>
@@ -26,10 +19,9 @@ const Stopwatch = ({
           </button>
         )}
 
-        <button type="button" onClick={handleWait} disabled={!running}>
+        <button type="button" id="waitBtn" disabled={!running}>
           Wait
         </button>
-
         <button type="button" onClick={handleReset} disabled={!running}>
           Reset
         </button>
